@@ -1,0 +1,97 @@
+body {
+    background: #eee;
+}
+
+header {
+    padding-block: 20px;
+}
+
+main {
+}
+
+footer {
+    padding-block: 20px;
+    text-align: center;
+}
+
+/* Main */
+
+#wrapper {
+    width: 1000px;
+    margin-block: 20px;
+    background: #fff;
+}
+
+.btn-block {
+    margin-block: 4px;
+    width: auto;
+}
+
+/* Profile */
+
+#profile > div {
+    height: 280px;
+}
+
+#profile-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+#profile-info > div > div {
+    margin-block: 20px;
+}
+
+#profile-info label {
+    display: block;
+}
+
+#profile-update {
+    display:none;
+    text-align: center;
+    margin-inline: 240px;
+    padding-block: 60px;
+}
+
+#profile-update button {
+    margin: 10px auto;
+}
+
+#avatar-block {
+    text-align: center;
+}
+
+#avatar-block button {
+    margin-inline: auto;
+    margin-top: 12px;
+}
+
+#avatar {
+    width: 200px;
+}
+
+/* VK upload */
+
+#vk-upload {
+    padding-block: 10px 60px;
+    margin-inline: 240px;
+}
+
+#vk-upload .alert {
+    text-align: center;
+    opacity: 0;
+}
+
+#vk-upload form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#vk-upload form div {
+    text-align: center;
+}
+
+#vk-upload button {
+    margin-top: 16px;
+}
